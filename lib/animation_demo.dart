@@ -62,9 +62,7 @@ class DemoState extends State<StatefulWidget> {
         endOffset: RandomScreenOffset.generateRandomScreenCoordinates(context),
         durationTime: 3000,
         childWidget: const Icon(Icons.handshake),
-        animationStateCallback: (status) {
-          print("000000打印状态$status 00<");
-        },
+        animationStateCallback: (status) {},
       ));
     });
   }
@@ -73,7 +71,7 @@ class DemoState extends State<StatefulWidget> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("坐标动画"),
+        title: const Text("坐标动画"),
       ),
       body: Center(
         child: Stack(alignment: Alignment.center, children: widgetList),

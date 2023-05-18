@@ -12,8 +12,8 @@ class RandomScreenOffset {
     final screenWidth = screenSize.width;
     final screenHeight = screenSize.height;
     // 计算屏幕中心坐标
-    final centerX = screenWidth / 2;
-    final centerY = screenHeight / 2;
+    // final centerX = screenWidth / 2;
+    // final centerY = screenHeight / 2;
     // // 生成随机 x 坐标（范围：0 到屏幕宽度）
     // double randomX = random.nextDouble() * screenWidth;
 
@@ -29,8 +29,8 @@ class RandomScreenOffset {
         (random.nextDouble() * screenHeight) - (screenHeight / 2);
 
     // 计算最终随机坐标
-    double randomX = centerX + randomXOffset;
-    double randomY = centerY + randomYOffset;
+    // double randomX = centerX + randomXOffset;
+    // double randomY = centerY + randomYOffset;
 
     return Offset(randomXOffset, randomYOffset);
   }
