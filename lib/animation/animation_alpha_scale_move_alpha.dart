@@ -33,7 +33,7 @@ class AnimationAlphaScaleMoveAlpha extends StatelessWidget {
       CurvedAnimation(
         parent: controller,
         //占总时间的
-        curve: const Interval(0.0, 0.1, curve: Curves.easeInOut),
+        curve: const Interval(0.0, 0.07, curve: Curves.easeInOut),
       ),
     );
 
@@ -45,7 +45,7 @@ class AnimationAlphaScaleMoveAlpha extends StatelessWidget {
       CurvedAnimation(
         parent: controller,
         //占总时间的
-        curve: const Interval(0.0, 0.1, curve: Curves.easeInOut),
+        curve: const Interval(0.0, 0.07, curve: Curves.easeInOut),
       ),
     );
 
@@ -57,7 +57,7 @@ class AnimationAlphaScaleMoveAlpha extends StatelessWidget {
     ).animate(
       CurvedAnimation(
         parent: controller,
-        curve: const Interval(0.5, 0.6, curve: Curves.easeInOut),
+        curve: const Interval(0.5, 0.65, curve: Curves.easeInOut),
       ),
     );
 
@@ -68,7 +68,7 @@ class AnimationAlphaScaleMoveAlpha extends StatelessWidget {
     ).animate(
       CurvedAnimation(
         parent: controller,
-        curve: const Interval(0.6, 0.7, curve: Curves.easeInOut),
+        curve: const Interval(0.65, 0.7, curve: Curves.easeInOut),
       ),
     );
   }

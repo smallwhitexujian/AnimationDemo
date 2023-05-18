@@ -41,8 +41,6 @@ class _MyHomePageState extends State<MyHomePage> {
           widgetList.add(AudioAllMicGift(
             endOffset:
                 RandomScreenOffset.generateRandomScreenCoordinates(context),
-            durationTime: 3000,
-            offSetY: 100,
             // childWidget: const Image(
             // image: AssetImage("images/xiayu.gif"), width: 100.0),
             childWidget: const Icon(Icons.accessibility),

@@ -36,7 +36,7 @@ class AnimationAlpahMoveAlpha extends StatelessWidget {
     ).animate(
       CurvedAnimation(
         parent: controller,
-        curve: const Interval(0.74, 0.8, curve: Curves.easeInOut),
+        curve: const Interval(0.74, 0.91, curve: Curves.easeInOut),
       ),
     );
 
@@ -47,7 +47,7 @@ class AnimationAlpahMoveAlpha extends StatelessWidget {
     ).animate(
       CurvedAnimation(
         parent: controller,
-        curve: const Interval(0.86, 1, curve: Curves.easeInOut),
+        curve: const Interval(0.91, 1, curve: Curves.easeInOut),
       ),
     );
   }
