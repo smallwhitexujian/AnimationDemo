@@ -15,7 +15,6 @@ Flutter动画插件，
 
 
 直接上效果
-<!-- ![mp4](/images/iShot_2023-05-18_15.46.37.mp4) -->
-<video src=/images/iShot_2023-05-18_15.46.37.mp4></video>
+<video src="/images/iShot_2023-05-18_15.46.37.mp4"></video>
 
 #### 希望它能够给你带来帮助！
