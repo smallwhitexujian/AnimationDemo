@@ -1,7 +1,8 @@
-import 'package:demo_animation/audio_all_mic_gift.dart';
-import 'package:demo_animation/tools/random_screen_offset.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
+import 'package:flutter_animation_factory/tools/random_screen_offset.dart';
+
+import 'audio_all_mic_gift.dart';
 
 void main() {
   runApp(const MyApp());

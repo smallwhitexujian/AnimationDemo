@@ -15,6 +15,6 @@ Flutter动画插件，
 
 
 直接上效果
-<video src="/images/iShot_2023-05-18_15.46.37.mp4"></video>
+![gif](/images/tutieshi_558x1024_1s.gif)
 
 #### 希望它能够给你带来帮助！
