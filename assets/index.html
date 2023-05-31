@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript to Flutter communication</title>
+  </head>
+  <body>
+    <h1>JavaScript to Flutter communication</h1>
+    <button onclick="sendMessageToFlutter()">Send Message to Flutter</button>
+    <p id="messageFromFlutter"></p>
+
+    <script>
+      // Function to send a message to Flutter
+      function sendMessageToFlutter() {
+        var message = 'Hello from JavaScript!';
+        flutterChannel.postMessage(message);
+       
+      }
+
+      // Function to receive a message from Flutter
+      function receiveFromFlutter(message) {
+        var messageElement = document.getElementById('messageFromFlutter');
+        messageElement.innerHTML = message;
+      }
+    </script>
+  </body>
+</html>
